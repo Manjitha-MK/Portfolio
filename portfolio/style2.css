@@ -1,0 +1,117 @@
+.skills h2{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.skills:hover{
+    transform: scale(1.1);
+  
+}
+.progress-bar:hover{
+    animation: js 1s linear forwards;
+}
+.logo{
+    font-size: 30px;
+}
+.progress-bar{
+    background: #959595;
+    width: 400px;
+    height: 10px;
+    border-radius: 5px;
+}
+.progress-bar div{
+    height: 10px;
+    border-radius: 5px;
+    width: 0;
+}
+.progress-bar div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #333;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #cc2d2d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.html{
+    background: #0ef;
+    animation: html 1s linear forwards;
+}
+.css{
+    background: #0ef;
+    animation: css 1s linear forwards;
+}
+.js{
+    background: #0ef;
+    animation: js 1s linear forwards;
+}
+.react{
+    background: #0ef;
+    animation: react 1s linear forwards;
+}
+.java{
+    background: #0ef;
+    animation: java 1s linear forwards;
+}
+.html span{
+    border: 1px solid #e91e63;
+}
+.css span{
+    border: 1px solid #670727;
+}
+.js span{
+    border: 1px solid #de4d7d;
+}
+.react span{
+    border: 1px solid #5f283a;
+}
+.java span{
+    border: 1px solid #5f283a;
+}
+
+@keyframes html{
+    100%{
+        width: 86%;
+    }
+}
+@keyframes css{
+    100%{
+        width: 75%;
+    }
+}
+@keyframes js{
+    100%{
+        width: 65%;
+    }
+}
+@keyframes react{
+    100%{
+        width: 40%;
+    }
+}
+@keyframes java{
+    100%{
+        width: 60%;
+    }
+}
+#footer{
+    clear: both;
+    background: #fff;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    color: rgb(129, 129, 130);
+    margin-top: 20px;
+}
+#footer p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
